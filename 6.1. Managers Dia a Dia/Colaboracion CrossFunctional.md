@@ -1,0 +1,3 @@
+# Colaboracion Cross Functional
+
+Revisa las comunicaciones recientes con clientes de los departamentos de Ventas y Soporte relacionadas con nuestros plazos de entrega de productos. Identifica incoherencias en el mensaje, el tono o los plazos establecidos. Resume las discrepancias clave y sugiere una respuesta unificada que pueda utilizarse en todos los departamentos para garantizar una comunicación coherente y efectiva con los clientes. Además, propone un plan de acción para alinear a ambos departamentos en términos de información y estrategias de comunicación futuras.
