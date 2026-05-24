@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tendencias Educación Business Schools 2026-2027</title>
+<style>
+:root {
+    /* Light Mode Colors */
+    --header-bg: linear-gradient(135deg, #2b5396 0%, #2b7696d1 100%);
+    --header-text: #ffffff;
+    --header-text-secondary: #e6f0f5;
+    --header-description: #edf5fa;
+    --page-bg: #f5f9fc;
+    --page-bg-alt: #ffffff;
+    --text-primary: #1a2b3c;
+    --text-secondary: #2f455c;
+    --text-muted: #4f5f6f;
+    --brand: #2d7a9f;
+    --brand-hover: #2b7696;
+    --accent-bg: #e6f3fa;
+    --accent: #2d7a9f;
+    --border: #d0dbe5;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Dark Mode Colors */
+        --header-bg: linear-gradient(135deg, #2b5396 0%, #2b7696d1 100%);
+        --header-text: #ffffff;
+        --header-text-secondary: #cfdbe4;
+        --header-description: #d8e5ed;
+        --page-bg: #121a23;
+        --page-bg-alt: #18242f;
+        --text-primary: #e8f0f7;
+        --text-secondary: #c5d3df;
+        --text-muted: #9fb2c4;
+        --brand: #5bb8e6;
+        --brand-hover: #4aa1c7;
+        --accent-bg: #1f2e3a;
+        --accent: #5bb8e6;
+        --border: #2f4354;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'SF Pro Display', 'SF Pro', sans-serif;
+    background: var(--page-bg);
+    color: var(--text-primary);
+    min-height: 100vh;
+}
+.poster-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: var(--page-bg-alt);
+    border-radius: 32px;
+    box-shadow: 0 8px 32px rgba(58,143,183,0.12);
+    padding: 0;
+    overflow: hidden;
+}
+header {
+    background: var(--header-bg);
+    color: var(--header-text);
+    text-align: center;
+    padding: 56px 32px 40px 32px;
+}
+.header-title {
+    font-size: clamp(40px, 6vw, 60px);
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+.header-subtitle {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: var(--header-text-secondary);
+}
+.header-description {
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 720px;
+    margin: 0 auto;
+    color: var(--header-description);
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    padding: 32px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.card {
+    background: var(--accent-bg);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 20px;
+}
+.section-title {
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: var(--text-primary);
+}
+
+/* Stat Card Component */
+.stat-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.stat-card {
+    flex: 1 1 45%;
+    background: var(--page-bg);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 16px;
+    text-align: center;
+}
+.stat-number {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--accent);
+}
+.stat-label {
+    font-size: 14px;
+    color: var(--text-muted);
+}
+
+.timeline {
+    border-left: 3px solid var(--brand);
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.timeline-item {
+    position: relative;
+    padding-left: 12px;
+}
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 4px;
+    width: 15px;
+    height: 15px;
+    background: var(--brand);
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px var(--page-bg-alt), 0 0 0 8px var(--accent-bg);
+}
+.timeline-title {
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.timeline-text {
+    color: var(--text-secondary);
+    font-size: 15px;
+}
+
+ul {
+    padding-left: 18px;
+    margin: 0;
+}
+ul li {
+    margin-bottom: 8px;
+    color: var(--text-secondary);
+}
+ul li::marker {
+    color: var(--brand);
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+    * {
+        overflow-wrap: anywhere;
+    }
+}
+:root {
+    /* Light Mode Colors */
+    --header-bg: linear-gradient(135deg, #2b5396 0%, #2b7696d1 100%);
+    --header-text: #ffffff;
+    --header-text-secondary: #eaf4f9;
+    --header-description: #eff7fc;
+    --page-bg: #f5f9fc;
+    --page-bg-alt: #ffffff;
+    --text-primary: #1a2b3c;
+    --text-secondary: #2f455c;
+    --text-muted: #4f5f6f;
+    --brand: #2d7a9f;
+    --brand-hover: #2b7696;
+    --accent-bg: #e6f3fa;
+    --accent: #2d7a9f;
+    --border: #d0dbe5;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Dark Mode Colors */
+        --header-bg: linear-gradient(135deg, #2b5396 0%, #2b7696d1 100%);
+        --header-text: #ffffff;
+        --header-text-secondary: #cfdbe4;
+        --header-description: #d8e5ed;
+        --page-bg: #121a23;
+        --page-bg-alt: #18242f;
+        --text-primary: #e8f0f7;
+        --text-secondary: #c5d3df;
+        --text-muted: #9fb2c4;
+        --brand: #5bb8e6;
+        --brand-hover: #4aa1c7;
+        --accent-bg: #1f2e3a;
+        --accent: #5bb8e6;
+        --border: #2f4354;
+    }
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'SF Pro Display', 'SF Pro', sans-serif;
+    background: var(--page-bg);
+    color: var(--text-primary);
+    min-height: 100vh;
+}
+.poster-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: var(--page-bg-alt);
+    border-radius: 32px;
+    box-shadow: 0 8px 32px rgba(58,143,183,0.12);
+    padding: 0;
+    overflow: hidden;
+}
+header {
+    background: var(--header-bg);
+    color: var(--header-text);
+    text-align: center;
+    padding: 56px 32px 40px 32px;
+    position: relative;
+}
+.header-title {
+    font-size: clamp(40px, 6vw, 60px);
+    font-weight: 900;
+    margin-bottom: 12px;
+    letter-spacing: 0.01em;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.08);
+}
+.header-subtitle {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: var(--header-text-secondary);
+}
+.header-description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 700px;
+    margin: 0 auto;
+    color: var(--header-description);
+}
+/* Stat Card Component */
+.stat-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+}
+.stat-card {
+    flex: 1 1 45%;
+    background: var(--page-bg);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 16px;
+    text-align: center;
+}
+.stat-number {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--accent);
+}
+.stat-label {
+    font-size: 14px;
+    color: var(--text-muted);
+}
+/* Timeline Component - Dual-Layer Glowing Dot Style */
+.timeline {
+    border-left: 3px solid var(--brand);
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.timeline-item {
+    position: relative;
+    padding-left: 12px;
+}
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 4px;
+    width: 15px;
+    height: 15px;
+    background: var(--brand);
+    border-radius: 50%;
+    box-shadow:
+        0 0 0 4px var(--page-bg-alt),
+        0 0 0 8px var(--accent-bg);
+}
+.timeline-title {
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+.timeline-text {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    font-size: 15px;
+}
+@media (forced-colors: active) {
+  header { background: Canvas; color: CanvasText; }
+  .poster-container,
+  .stat-card { background: Canvas; border: 1px solid CanvasText; box-shadow: none; }
+  .timeline { border-left: 2px solid CanvasText; }
+  .timeline-item::before {
+    background: CanvasText;
+    box-shadow: none;
+    border: 1px solid Canvas;
+  }
+}
+@media (max-width: 768px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+    * {
+        overflow-wrap: anywhere;
+    }
+}
+</style>
+</head>
+<body>
+<div class="poster-container">
+<header>
+    <h1 class="header-title">Educación Ejecutiva & Business Schools</h1>
+    <div class="header-subtitle">Tendencias clave 2026–2027 · España</div>
+    <div class="header-description">Resumen ejecutivo de las transformaciones que marcarán la educación de negocios: empleabilidad, ROI, tecnología y nuevos formatos formativos.</div>
+</header>
+
+<div class="main-content">
+    <!-- LEFT COLUMN -->
+    <div class="column">
+        <div class="card">
+            <h2 class="section-title">Indicadores clave de ROI</h2>
+            <div class="stat-grid">
+                <div class="stat-card">
+                    <div class="stat-number">91%</div>
+                    <div class="stat-label">Inserción o promoción tras MBA (IE)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">+16,8%</div>
+                    <div class="stat-label">Premium salarial medio de un máster en España</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2 class="section-title">Top tendencias del mercado</h2>
+            <ul>
+                <li><strong>Modelo híbrido</strong> como estándar para profesionales en activo</li>
+                <li><strong>IA aplicada a la educación</strong> y aprendizaje personalizado</li>
+                <li><strong>Aprender haciendo</strong>: casos reales, simuladores y gamificación</li>
+                <li><strong>ROI y empleabilidad</strong> como principal criterio de decisión</li>
+                <li><strong>Microcredenciales</strong> y programas modulares acumulables</li>
+                <li><strong>Power skills</strong> y liderazgo humano en la era de la IA</li>
+                <li><strong>Sostenibilidad y ESG</strong> integrados en todos los programas</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2 class="section-title">Segmentos de estudiantes en crecimiento</h2>
+            <ul>
+                <li><strong>Recién graduados (22–25)</strong>: especialización y primer empleo</li>
+                <li><strong>Profesionales junior (25–35)</strong>: MBA y upskilling</li>
+                <li><strong>Profesionales sénior (35–50)</strong>: reskilling y pivotaje</li>
+                <li><strong>Directivos (40+)</strong>: executive education breve</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="column">
+        <div class="card">
+            <h2 class="section-title">Programas con mayor demanda prevista</h2>
+            <ul>
+                <li><strong>IA & Machine Learning</strong>: ~96% empleabilidad</li>
+                <li><strong>Big Data & Business Analytics</strong>: >90% inserción</li>
+                <li><strong>Ciberseguridad estratégica</strong>: ROI < 2 años</li>
+                <li><strong>MBA digital & analítico</strong>: >90% empleo</li>
+                <li><strong>FinTech & Finanzas digitales</strong>: hub en crecimiento</li>
+                <li><strong>Marketing Digital & E-commerce</strong>: ~89% empleabilidad</li>
+                <li><strong>Sostenibilidad & ESG</strong>: demanda emergente</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2 class="section-title">Nuevos formatos en auge</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-title">Microcredenciales</div>
+                    <div class="timeline-text">Cursos cortos, acumulables y orientados a skills concretas</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-title">Programas stackables</div>
+                    <div class="timeline-text">Módulos que suman títulos superiores</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-title">Online & Híbrido</div>
+                    <div class="timeline-text">Flexibilidad sin pérdida de empleabilidad</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-title">Lifelong learning</div>
+                    <div class="timeline-text">Aprendizaje continuo durante toda la carrera</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2 class="section-title">Factores decisivos de compra</h2>
+            <ul>
+                <li><strong>ROI y salario</strong> tras la graduación</li>
+                <li><strong>Flexibilidad</strong> para compatibilizar trabajo y estudio</li>
+                <li><strong>Marca y rankings</strong> internacionales</li>
+                <li><strong>Networking</strong> e internacionalización</li>
+                <li><strong>Conexión directa con empresas</strong> y prácticas</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

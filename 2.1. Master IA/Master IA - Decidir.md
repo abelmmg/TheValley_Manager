@@ -1,3 +1,5 @@
+# Master Universitario Online en Inteligencia Artificial de la UAX
+
 Actúa como un Consultor Estratégico de Tecnología y Talento y realiza un análisis de viabilidad riguroso sobre el "Máster Universitario Online en Inteligencia Artificial de la UAX" basándote estrictamente en su folleto oficial. 
 
 Mi objetivo profesional es **liderar proyectos de IA (gestión, estrategia e implementación)** y uno de mis criterios críticos de decisión es la necesidad de una **opción online** para potenciar el networking y el aprendizaje ejecutivo.
